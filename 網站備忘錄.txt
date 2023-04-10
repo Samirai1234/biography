@@ -1,0 +1,11 @@
+1.換章節的提示圖片
+2.網站防盜
+3.用github把網站上架
+4.拖曳翻書動畫
+5.如果能把網站弄成手機的版型的話就更好了。用CSS@Media
+
+vw = the size of the browser window 就是它！！！www
+em = 16px
+px
+
+最後要把網站上架時，要把程式碼加密。

@@ -1,0 +1,369 @@
+
+	@Media Print { Body {display:none;}}
+	
+	
+
+	.flip1 {
+		z-index: 3;
+		border: 0px outset rgba(9, 15, 9, 0.479);
+		width:fit-content;
+		float: right;
+		position:relative;
+		margin: 0px 0px;
+		}
+
+	/*.flip2 {
+		border: 0px outset red;
+		width:880px;
+		float: left;
+		position: relative;
+		animation: mymove1 0.3s 1;
+		animation-play-state: running;
+		margin: 0px 0px;
+		}
+
+		@keyframes mymove1 {
+		from {left: 0px;}
+		to {left: 880px;}
+	}*/
+
+	.flip3 {
+		z-index: 3;
+		border: 0px outset rgba(9, 255, 0, 0.479);
+		width:fit-content;
+		float:left;
+		position: relative;
+		margin: 0px 0px;
+		}
+
+	/*.flip4 {
+		border: 0px outset red;
+		width:880px;
+		float: right;
+		position: relative;
+		animation: mymove2 0.3s 1;
+		animation-play-state: running;
+		margin: 0px 20px;
+		}
+
+		@keyframes mymove2 {
+		from {right: 0px;}
+		to {right: 880px;}
+	}*/
+
+	.chapterlist {
+		z-index: 5;
+		position:absolute;
+		transform:translate(-14.5em,5.5em);
+		border: 0px solid red;
+		width:fit-content;
+		padding: 10px 10px;
+		margin: 0px 0px;
+		height: fit-content;
+		background-color: #d7b98edc;/*砥粉*/
+		box-shadow:  5px 5px 20px gray;
+		border-radius: 20px;
+		animation: list 0.8s 1;
+		animation-play-state: paused;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+
+	.chapterlist2{
+		z-index: 6;
+		position:absolute;
+		transform: translate(0em,5.5em);
+		border: 0px solid green;
+		width: 30px;
+		height:300px;
+	}
+
+	.button {
+			background-color: white;
+			border: none;
+			padding: 10px 20px;
+			text-align: center;
+			text-decoration: none;
+			font-family: "MS Mincho";
+			display: inline-block;
+			font-size: 30px;
+			font-weight: bold;
+			margin: 5px 5px;
+			transition-duration: 0.1s;
+			cursor: pointer;
+			border-radius: 8px;
+			}
+
+			.button1:active {
+			transform: translateX(-5px);
+			}
+
+			.button1 {
+			font-family: "Times New roman";
+			background-color: #8D742A; /*肥後煤竹*/
+			color: white; 
+			}
+
+			.button1:hover {
+				background-color: #a39055;
+				color: white;
+				box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+			}
+
+			.button2:active {
+				transform: translateX(5px);
+			}
+
+			.button2 {
+				font-family: "Times New roman";
+				background-color: brown; 
+				color: white; 
+			}
+
+			.button2:hover {
+				background-color: rgb(168, 102, 102);
+				color: white;
+				box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+			}
+
+			.sw:active {
+				transform: translate(5px,5px);
+			}
+
+			.sw {
+				font-weight:bold;
+				font-family: "Times New roman";
+				font-size: 20px;
+				background-color: #E2943B; /*朽葉*/
+				color: white; 
+			}
+
+			.sw:hover {
+				background-color: #ecbd86;
+				color: white;
+				box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+			}
+
+			input[type='button']{
+				font-size: 20px;
+				border: none;
+				text-align: center;	
+				font-family: "Times New roman";
+				background-color: #554236; /*黒鳶*/
+				color: white; 
+				border-radius:100%;
+				padding: 10px 17px;
+				margin: 5px 5px;
+				cursor: pointer;
+			}
+
+			input[type='button']:hover {
+				background-color: #8a8a8a;
+				color: white;
+				box-shadow: 0 2px 2px 0 rgba(0,0,0,0.24), 0 1px 1px 0 rgba(0,0,0,0.19);
+				transform: translate(1px,5px);
+			}
+
+	#i1{
+		font-size: 25px;
+		text-align: center;	
+		width: 3em;
+		font-family: "Times New roman";
+		font-weight: bold;
+		background-color: #FCF6EE;
+		border-radius: 4px;
+		margin: 0px 5px;
+		padding: 0px 0px;
+	}/* # 是用id來分辨 */
+
+	.dropdown-content {
+		font-family: "MS Mincho";
+		display: none;
+		position: absolute;
+		transform: translate(10em,-3em);
+		background-color: #563f2ed8;
+		color: #FCF6EE;
+		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		
+		z-index: 6;
+		padding: 5px 5px;
+	}
+
+	img {
+		z-index: -1;
+		filter: drop-shadow(0px 0px 2px gray);
+		max-width: 100%;
+ 		height: auto;
+	}
+
+	body{
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		background-color: #FCF6EE;
+	}
+
+	.t2{
+		z-index: 0;
+		width:fit-content;
+		height: fit-content;
+		padding: 25px 25px;
+	}
+
+
+	.Title1{
+		font-family: "MS Mincho";
+		font-size: 50px;
+		color: #fcf6ee;
+		text-shadow: 2px 2px 1px #080808;
+		width: 100%;
+		font-weight: bold;
+	}
+
+	.Title2{
+		z-index: 4;
+		position:absolute;
+		transform: translateY(-4.2em);
+		border: 0px solid red;
+		width: 100%;
+		padding: 25px 0px;
+		background-color: #db8d71da;/*ときがら茶*/
+		border-radius: 20px;
+		animation: t 0.8s 1;
+		animation-play-state: paused;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes t {
+		0%{top: 0px;}
+		75%{transform:translateY(-2em);}
+		100%{transform:translateY(0em);}
+	}
+
+	@keyframes tback {
+		0%{transform:translateY(0em);}
+		25%{transform:translateY(0.2em);}
+		100%{transform:translateY(-4.2em);}
+	}
+
+	@keyframes list {
+		0%{transform: translate(-14.5em,5.5em);}
+		75%{transform:translate(-5em,5.5em);}
+		100%{transform:translate(0em,5.5em);}
+	}
+
+	@keyframes listback {
+		0%{transform: translate(0em,5.5em);}
+		25%{transform:translate(1em,5.5em);}
+		100%{transform:translate(-14.5em,5.5em);}
+	}
+
+	@keyframes cr {
+		0%{transform: translate(-10000em,-5000em);}
+		25%{transform:translate(-50em,-6em);}
+		75%{transform:translate(-2em,-6em);}
+		100%{transform:translate(0em,-6em);}
+	}
+
+	@keyframes crback {
+		0%{transform: translate(0em,-6em);}
+		25%{transform:translate(2em,-6em);}
+		75%{transform:translate(-100em,-6em);}
+		100%{transform:translate(-10000em,-5000em);}
+	}
+
+	.Title3{
+		z-index: 5;
+		position:absolute;
+		border: 0px solid green;
+		width: 100%;
+		height:15px;
+	}
+
+	.page{
+		line-height: 100%;
+		width: 100%;
+		font-size: 25px;
+		font-family: "Times New Roman";
+		text-shadow: 1px 1px 1px #333;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.content1{
+		line-height: 250%;
+		width: 100%;
+		font-family: "MS Mincho";	
+		writing-mode: vertical-rl;
+	}
+
+	.bt{
+		line-height: 150%;
+		width: 100%;
+		font-size: 32px;
+		font-family:"MS Mincho";
+		text-decoration: none;
+		color: #CA7A2C;/*琥珀*/
+		text-shadow: 1px 1px 1px #080808;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	.bt:hover{
+		color: #FEB268;
+	}
+
+	.copyright{
+		z-index: 4;
+		position:absolute;
+		transform:translate(-10000em,-5000em);
+		border: 0px solid red;
+		width: 100%;
+		padding:15px 0px;
+		background-color: #563f2ed8;/*焦げ茶*/
+		animation: cr 0.8s 1;
+		animation-play-state: paused;
+		animation-timing-function: ease-in-out;
+		animation-fill-mode: forwards;
+	}
+
+	#copyright2{
+		z-index: 5;
+		position:absolute;
+		transform:translateY(-2em);
+		border: 0px solid green;
+		background-color: #d7b98edc;
+		font-size: 50px;
+		color: brown;
+		vertical-align: central;
+		width: fit-content;
+		height: fit-content;
+		border-radius: 15px;
+	}
+
+	a:link{
+		font-family:"MS Mincho";
+		text-decoration: none;
+		color: #F0A986;/*宍*/
+		text-shadow: 0px 0px 5px #080808;
+		font-weight:bolder;
+		font-size: 1em;
+	}
+
+	a:visited{
+		text-decoration: none;
+		color:#F0A986;
+	}
+
+	a:hover{
+		text-decoration: none;
+		color: #FEDFE1;/*桜*/
+	}
+
+	a:active{
+		text-decoration: none;
+		color: #F75C2F;/*紅緋*/
+	}
+
