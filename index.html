@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>畢專小說-ご縁がありますように</title>
+
+<link rel="stylesheet" href="design.css">
+
+</head>
+
+
+<body><!--onmousemove="showCoords(event)"-->
+
+<div class="Title3" id="Title3" onmouseover="mouseover(this)" onmouseout="mouseout(this)"></div>
+<div class="Title2" id="Title2" >
+<table width="100%" id="t1">
+	<tr>
+		<td width="100%"  align="center" valign="middle">
+			<div class="Title1">ご縁がありますように</div>
+		</td>
+	</tr>
+</table>
+</div>
+
+
+<div class="chapterlist2" id="chapterlist2" onmouseover="mouseover(this)" onmouseout="mouseout(this)"></div>
+<div class="chapterlist" id="chapterlist" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+	<table border="0" cellspacing="0" padding="0" align="middle" >
+		<tr><td align="middle"><div class="Title1" style="font-size: 45px;">目次</div></td></tr>
+		<tr><td id="C1page"><div class="bt">一、灰にならず白黒</div></td></tr>
+		<tr><td id="C2page"><div class="bt">二、泥濘で藻搔く苗</div></td></tr>
+		<tr><td id="C3page"><div class="bt">三、漂い払われ暁雲</div></td></tr>
+		<tr><td id="C4page"><div class="bt">四、筆に秘める憎悪</div></td></tr>
+		<tr><td id="C5page"><div class="bt">五、長丁場も瞬く間</div></td></tr>
+	</table>
+</div>
+
+<table width="100%" border="0" align="center" valign="center" cellspacing="0" padding="0" id="t2" class="t2" >
+	<tr valign="top" width="100%">
+		<td width="50%"  bgcolor="#FCF6EE" height="100%" align="center">
+			
+			<!--test<div class="flip1"><table><tr><td id="test2">tes tes te te test</td></tr></table></div>-->
+			<div class="flip1"><img id="m1" src="C1page/1-3.png" onerror="imgError()" draggable="false"></div>
+
+		</td>
+		<td width="50%" id="td2.2" valign="top" align="center">
+			<div class="flip3"><img id="m2" src="C1page/1-2.png"draggable="false"></div>
+
+		</td>
+	</tr>
+	<tr>			
+		<table width="100%" border="0"  align="center" valign="center">
+			<tr>
+				<td width="33%"  align="right" valign="middle">
+					<button id="b1" class="button button1" >次へ</button><br>
+					<input type="button" id="b3" onclick="javascript:location.href='#t2'" value="↑" >
+				</td>
+
+				<td width="34%" align="center" valign="middle">
+					<div  class= "page">
+						
+						第<input id="i1" type="number" min="3" max="400" value="3" step="0" placeholder="..." onfocus="changepage()" onfocusout="changepageout()">ページ
+							<button id="sw" class="button sw">飛ぶ</button>
+							<div class="dropdown-content" id="DC">
+								ページを入力してください					
+							</div><br>
+						第&nbsp;&nbsp;<span id = "page0"></span>&nbsp;&nbsp;ページ
+					</div>
+					
+					<!--<span id = "g">1</span><br>跳頁
+					測試-->
+				</td>
+
+				<td width="33%"  align="left" valign="middle">
+					<button id="b2" class="button button2">戻る</button><br>
+					<input type="button" id="b3" onclick="javascript:location.href='#t2'" value="↑" >
+				</td>
+			</tr>
+		</table>
+	</tr>
+</table>
+
+<div id="copyright2" onmouseover="mouseover(this)" onmouseout="mouseout(this)">→</div>
+<div class="copyright" id="copyright" onmouseover="mouseover(this)" onmouseout="mouseout(this)">
+	<table width="100%" border="0" id="t5">
+		<tr>
+			<td width="100%" align="center" valign="middle"><a href="index.html" target="_top">
+				ウェブサイトデザイナー：楊士賢<br><br>
+				Copyright © 2021 ご縁がありますように製作チーム All rights reserved.</a>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<script src="faculty.js"></script>
+
+</body>
+</html>
